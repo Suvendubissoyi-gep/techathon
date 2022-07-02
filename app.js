@@ -10,6 +10,8 @@ app.get("/",function(req,res){
     res.sendFile(__dirname+"index.html");
 })
 
+console.log("hi to the world");
+
 app.listen(3000,function(){
     console.log("sever is running!!");
 });
